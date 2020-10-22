@@ -1,0 +1,75 @@
+{
+  "_from": "webpack-threejs",
+  "_id": "webpack-threejs@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-dbeqrOVYBB3RRXWynvbECP35aew3EMBCICB73f7j4g7Dl0BfNL86dvRHgu9W78V3DcNSwcIL3no/RZby9mZyIw==",
+  "_location": "/webpack-threejs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "webpack-threejs",
+    "name": "webpack-threejs",
+    "escapedName": "webpack-threejs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/webpack-threejs/-/webpack-threejs-1.0.1.tgz",
+  "_shasum": "e3b240dc8748f16ac09ccbae34d9103392e7f000",
+  "_spec": "webpack-threejs",
+  "_where": "D:\\ThreeJSTest",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@brunoimbrizi/controlkit": "^0.1.93",
+    "browser-detect": "^0.2.28",
+    "domready": "^1.0.8",
+    "glsl-noise": "0.0.0",
+    "gsap": "^2.0.2",
+    "stats.js": "^0.17.0",
+    "three": "^0.98.0"
+  },
+  "deprecated": false,
+  "description": "A simple boilerplate to start projects with Three.js using webpack.",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.52",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0-rc.1",
+    "@babel/polyfill": "^7.0.0-beta.55",
+    "@babel/preset-env": "^7.0.0-beta.52",
+    "babel-loader": "^8.0.0-beta.4",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "glslify": "^6.2.1",
+    "glslify-import-loader": "^0.1.2",
+    "glslify-loader": "^1.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "imports-loader": "^0.8.0",
+    "js-yaml": ">=3.13.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": ">=3.1.11",
+    "webpack-merge": "^4.1.3"
+  },
+  "keywords": [
+    "three.js",
+    "webpack",
+    "glsl",
+    "glslify"
+  ],
+  "license": "MIT",
+  "name": "webpack-threejs",
+  "scripts": {
+    "build": "webpack -p --config config/prod.js",
+    "start": "webpack-dev-server --config config/dev.js"
+  },
+  "sideEffects": false,
+  "version": "1.0.1"
+}
